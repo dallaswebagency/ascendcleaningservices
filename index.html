@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ascend Cleaning Services | Edmonton Exterior Cleaners</title>
+<meta name="description" content="Ascend Cleaning Services are Edmonton’s exterior cleaners. Window cleaning, gutter cleaning, pressure washing and house and building wash. Fully insured, locally owned, 100% satisfaction guaranteed.">
+<meta name="theme-color" content="#143658">
+<link rel="icon" href="images/a-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,400..700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#143658;
+  --navy-deep:#0d2640;
+  --sky:#57a2d9;
+  --blue:#4296d2;
+  --ice:#e9f2fa;
+  --frost:#f5f9fd;
+  --ink:#1b2f45;
+  --muted:#58697d;
+  --line:#d3e1ee;
+  --wrap:1240px;
+  --font:"Archivo", "Helvetica Neue", Arial, sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font);font-size:17px;line-height:1.6;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--sky);outline-offset:3px;border-radius:4px}
+.wrap{width:min(var(--wrap),100% - 48px);margin-inline:auto}
+h1,h2,h3{font-stretch:125%;font-weight:800;line-height:1.02;letter-spacing:-.01em;margin:0;color:var(--navy)}
+h2{font-size:clamp(2rem,4.2vw,3.4rem)}
+p{margin:0 0 1em}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-stretch:110%;font-size:1rem;text-decoration:none;padding:15px 26px;border-radius:999px;border:2px solid transparent;transition:background .2s,color .2s,border-color .2s}
+.btn-sky{background:var(--sky);color:#fff}
+.btn-sky:hover{background:var(--blue)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-deep)}
+.btn-line{border-color:currentColor;color:var(--navy)}
+.btn-line:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn-ghost{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:#fff;color:var(--navy)}
+.btn img{width:22px;height:auto}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.head-row{display:flex;align-items:center;gap:28px;height:84px}
+.brand img{height:42px;width:auto}
+.nav{display:flex;gap:4px;margin-left:auto;align-items:center}
+.nav > a,.nav .drop > button{font:inherit;font-size:.95rem;font-weight:600;color:var(--navy);text-decoration:none;padding:10px 12px;background:none;border:0;cursor:pointer;border-radius:6px}
+.nav > a:hover,.nav .drop > button:hover{color:var(--blue)}
+.nav > a[aria-current]{color:var(--blue)}
+.drop{position:relative}
+.drop > button::after{content:"";display:inline-block;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin-left:8px;position:relative;top:-3px}
+.drop-panel{position:absolute;top:calc(100% + 10px);left:-20px;width:300px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px;box-shadow:0 18px 40px rgba(20,54,88,.14);display:none}
+.drop:hover .drop-panel,.drop:focus-within .drop-panel{display:block}
+.drop-panel a{display:flex;gap:14px;align-items:center;padding:10px 12px;border-radius:10px;text-decoration:none;font-weight:600;color:var(--navy);font-size:.95rem}
+.drop-panel a:hover{background:var(--frost)}
+.drop-panel img{width:34px;height:34px}
+.drop-panel .plans{margin-top:6px;background:var(--navy);color:#fff}
+.drop-panel .plans:hover{background:var(--navy-deep)}
+.head-cta{display:flex;align-items:center;gap:16px}
+.phone{display:flex;align-items:center;gap:8px;font-weight:800;font-stretch:110%;text-decoration:none;color:var(--navy);white-space:nowrap}
+.phone img{width:26px}
+.menu-btn{display:none;margin-left:auto;width:46px;height:46px;border-radius:10px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.menu-btn span{display:block;width:20px;height:2px;background:var(--navy);margin:4px auto}
+.mobile-nav{display:none}
+
+/* hero */
+.hero{position:relative;min-height:clamp(640px,92vh,900px);color:#fff;overflow:hidden;background:var(--navy);display:flex;flex-direction:column}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 30%}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,38,64,.88) 0%,rgba(13,38,64,.55) 38%,rgba(13,38,64,0) 62%),linear-gradient(0deg,rgba(13,38,64,.55),rgba(13,38,64,0) 40%);z-index:1}
+.frost{position:absolute;inset:0;z-index:2;background:rgba(235,244,251,.38);backdrop-filter:blur(14px) saturate(.5) brightness(1.08);-webkit-backdrop-filter:blur(14px) saturate(.5) brightness(1.08);
+  -webkit-mask-image:linear-gradient(105deg,transparent 46%,#000 50%);mask-image:linear-gradient(105deg,transparent 46%,#000 50%);
+  -webkit-mask-size:300% 100%;mask-size:300% 100%;-webkit-mask-position:100% 0;mask-position:100% 0;
+  animation:wipe 1.7s cubic-bezier(.6,.05,.3,1) .35s forwards;pointer-events:none}
+.blade{position:absolute;z-index:3;top:-20%;height:140%;width:4px;left:-6%;background:linear-gradient(180deg,transparent,#fff 20%,#fff 80%,transparent);box-shadow:0 0 22px 6px rgba(255,255,255,.55);transform:rotate(15deg);opacity:0;animation:blade 1.7s cubic-bezier(.6,.05,.3,1) .35s forwards;pointer-events:none}
+@keyframes wipe{to{-webkit-mask-position:0 0;mask-position:0 0}}
+@keyframes blade{0%{left:-6%;opacity:1}92%{opacity:1}100%{left:106%;opacity:0}}
+.hero-inner{position:relative;z-index:4;flex:1;display:flex;align-items:flex-end;padding:110px 0 56px}
+.hero-copy{opacity:0;animation:rise .7s ease 1.6s forwards}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.badge{display:inline-flex;align-items:center;gap:12px;font-weight:600;font-size:1.05rem;margin-bottom:22px}
+.badge img{width:44px;height:44px}
+.hero h1{color:#fff;font-size:clamp(3rem,8.4vw,7.2rem);line-height:.9;font-weight:900;letter-spacing:-.02em}
+.hero h1 span{display:block}
+.hero h1 .thin{font-weight:300;font-stretch:125%}
+.ticks{list-style:none;padding:0;margin:30px 0 34px;display:flex;flex-wrap:wrap;gap:10px 26px;font-weight:600}
+.ticks li{display:flex;align-items:center;gap:9px}
+.ticks li::before{content:"";width:20px;height:20px;border-radius:50%;background:var(--sky) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.3l3 3 6-6.6' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/100% no-repeat;flex:none}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px}
+.directory{position:relative;z-index:4;display:grid;grid-template-columns:repeat(4,1fr);background:var(--frost);border-radius:20px 20px 0 0;padding:10px 10px 0;color:var(--navy);opacity:0;animation:rise .7s ease 1.85s forwards}
+.directory a{display:grid;grid-template-columns:48px 1fr auto;align-items:center;gap:14px;padding:18px 18px 22px;border-radius:12px 12px 0 0;text-decoration:none;font-weight:700;font-stretch:112%;line-height:1.2}
+.directory a + a{border-left:1px solid var(--line);border-radius:0}
+.directory a:hover{background:var(--ice)}
+.directory img{width:48px;height:48px}
+.directory a::after{content:"";width:9px;height:9px;border-top:2px solid var(--sky);border-right:2px solid var(--sky);transform:rotate(45deg)}
+
+/* intro + rising photos */
+.intro{background:var(--frost);padding:120px 0 110px;overflow:hidden}
+.intro-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
+.intro p.lede{font-size:1.15rem;color:var(--muted);max-width:34em;margin-top:22px}
+.intro p.lede strong{color:var(--navy);font-weight:700}
+.said{margin:34px 0;padding-left:22px;border-left:4px solid var(--sky)}
+.said q{display:block;font-size:clamp(1.4rem,2.2vw,1.8rem);font-stretch:85%;font-weight:600;color:var(--navy);line-height:1.25;quotes:"“" "”"}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px}
+.rise{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;align-items:end}
+.rise figure{margin:0}
+.rise a{display:block;text-decoration:none}
+.rise .ph{border-radius:14px;overflow:hidden;aspect-ratio:3/4.4;background:var(--ice)}
+.rise img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.rise a:hover img{transform:scale(1.04)}
+.rise figcaption{font-weight:700;font-stretch:110%;color:var(--navy);font-size:.95rem;margin-top:12px;line-height:1.2;min-height:2.4em}
+.rise figure:nth-child(1){margin-bottom:0}
+.rise figure:nth-child(1) .ph{aspect-ratio:3/3.4}
+.rise figure:nth-child(2) .ph{aspect-ratio:3/3.9}
+.rise figure:nth-child(3) .ph{aspect-ratio:3/4.4}
+.rise figure:nth-child(4) .ph{aspect-ratio:3/4.9}
+
+/* services tabs */
+.services{background:var(--navy);color:#fff;padding:110px 0}
+.services-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:48px;flex-wrap:wrap}
+.services h2{color:#fff}
+.services-head p{max-width:30em;color:#bcd3e8;margin:0}
+.tabs{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px}
+.tablist{display:flex;flex-direction:column;border-top:1px solid rgba(255,255,255,.16)}
+.tab{all:unset;cursor:pointer;display:grid;grid-template-columns:56px 1fr;gap:18px;align-items:center;padding:22px 8px;border-bottom:1px solid rgba(255,255,255,.16);font-size:clamp(1.25rem,2.1vw,1.7rem);font-weight:700;font-stretch:118%;color:#9fbbd5;line-height:1.1;transition:color .2s}
+.tab .ico{width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.08);display:grid;place-items:center;transition:background .2s}
+.tab .ico img{width:34px;height:34px;filter:brightness(0) invert(1);opacity:.75}
+.tab:hover{color:#fff}
+.tab[aria-selected="true"]{color:#fff}
+.tab[aria-selected="true"] .ico{background:#fff}
+.tab[aria-selected="true"] .ico img{filter:none;opacity:1}
+.tab:focus-visible{outline:3px solid var(--sky);outline-offset:-3px;border-radius:6px}
+.panel{display:grid;grid-template-columns:.95fr 1.05fr;gap:0;background:#fff;color:var(--ink);border-radius:22px;overflow:hidden;min-height:480px}
+.panel[hidden]{display:none}
+.panel .pic{position:relative;background:var(--ice)}
+.panel .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.panel .txt{padding:44px 42px;display:flex;flex-direction:column}
+.panel h3{font-size:1.75rem;margin-bottom:18px}
+.panel p{color:var(--muted)}
+.panel p strong{color:var(--navy);font-weight:700}
+.panel .btn{margin-top:auto;align-self:flex-start}
+.panel .tag{position:absolute;left:14px;bottom:14px;background:rgba(13,38,64,.82);color:#fff;font-size:.8rem;font-weight:600;padding:6px 12px;border-radius:999px}
+
+/* why */
+.why{padding:120px 0}
+.why-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.why-title{display:flex;align-items:center;gap:16px;margin-bottom:30px}
+.why-title img{width:62px}
+.why-art{position:relative}
+.why-art img{width:100%}
+.guarantee{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:22px;padding:22px 26px;border-radius:16px;background:var(--ice)}
+.guarantee p{margin:0;font-weight:700;font-stretch:110%;color:var(--navy);font-size:1.15rem;max-width:20em;line-height:1.3}
+.points{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:34px}
+.points li{display:flex;align-items:center;gap:16px;padding:24px 0;border-bottom:1px solid var(--line);font-weight:700;font-stretch:108%;color:var(--navy);font-size:1.15rem;line-height:1.25}
+.points li:nth-child(-n+2){border-top:1px solid var(--line)}
+.points li img{width:30px;height:30px;flex:none}
+.points li:last-child{grid-column:1/-1}
+
+/* results */
+.results{background:var(--navy-deep);color:#fff;padding:120px 0}
+.results-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:56px;align-items:center}
+.results h2{color:#fff}
+.results .note{color:#9fbbd5;margin:20px 0 30px;max-width:26em}
+.jobs{list-style:none;margin:0 0 34px;padding:0;display:grid;gap:8px}
+.job{all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:center;padding:8px;border-radius:14px;border:1px solid rgba(255,255,255,.1);transition:background .2s,border-color .2s}
+.job img{width:64px;height:52px;object-fit:cover;border-radius:9px}
+.job b{display:block;font-stretch:112%;font-size:1.02rem;color:#fff;line-height:1.2}
+.job span{color:#9fbbd5;font-size:.88rem}
+.job:hover{background:rgba(255,255,255,.05)}
+.job[aria-pressed="true"]{background:#fff;border-color:#fff}
+.job[aria-pressed="true"] b{color:var(--navy)}
+.job[aria-pressed="true"] span{color:var(--muted)}
+.job:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.ba{position:relative;aspect-ratio:7/5;border-radius:24px;overflow:hidden;background:#0a1d31;--pos:50%;box-shadow:0 30px 60px rgba(0,0,0,.35);user-select:none}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .before{clip-path:inset(0 calc(100% - var(--pos)) 0 0)}
+.ba .bar{position:absolute;top:0;bottom:0;left:var(--pos);width:3px;margin-left:-1.5px;background:#fff;pointer-events:none}
+.ba .knob{position:absolute;top:50%;left:var(--pos);width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:#fff;box-shadow:0 6px 20px rgba(0,0,0,.35);display:grid;place-items:center;pointer-events:none}
+.ba .knob::before{content:"";width:26px;height:12px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 12'%3E%3Cpath d='M6 1L1 6l5 5M20 1l5 5-5 5' fill='none' stroke='%23143658' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
+.ba .chip{position:absolute;top:18px;padding:7px 14px;border-radius:999px;font-size:.85rem;font-weight:700;pointer-events:none}
+.ba .chip.l{left:18px;background:rgba(13,38,64,.85);color:#fff}
+.ba .chip.r{right:18px;background:var(--sky);color:#fff}
+.ba input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;-webkit-appearance:none;appearance:none}
+.ba input:focus-visible ~ .knob{outline:3px solid var(--sky);outline-offset:3px}
+.ba-cap{margin-top:16px;color:#9fbbd5;font-size:.92rem}
+
+/* process */
+.process{background:var(--ice);padding:120px 0 150px}
+.process-head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:40px}
+.rail{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-bottom:34px}
+.rail span{height:4px;border-radius:4px;background:var(--line);position:relative;overflow:hidden}
+.rail span::after{content:"";position:absolute;inset:0;background:var(--sky);transform-origin:left}
+.rail span:nth-child(1)::after{transform:scaleX(.25)}
+.rail span:nth-child(2)::after{transform:scaleX(.5)}
+.rail span:nth-child(3)::after{transform:scaleX(.75)}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.step:nth-child(even){transform:translateY(48px)}
+.step .pic{position:relative;border-radius:22px;overflow:hidden;aspect-ratio:4/4.6;background:#fff}
+.step .pic img{width:100%;height:100%;object-fit:cover}
+.step .n{position:absolute;left:16px;bottom:16px;width:58px;height:58px;border-radius:16px;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:900;font-stretch:125%;font-size:1.6rem;box-shadow:0 8px 20px rgba(13,38,64,.3)}
+.step:nth-child(4) .n{background:var(--sky)}
+.step h3{font-size:1.35rem;font-stretch:115%;margin:24px 0 10px}
+.step p{color:var(--muted);font-size:.97rem;margin-bottom:14px}
+.step a{font-weight:700;color:var(--navy);text-decoration:none;border-bottom:2px solid var(--sky);padding-bottom:2px}
+.step a:hover{color:var(--blue)}
+
+/* faq */
+.faq{padding:120px 0}
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}
+.faq-side{position:sticky;top:120px}
+.faq-side p{color:var(--muted);margin:22px 0 28px;max-width:24em}
+details{border-bottom:1px solid var(--line)}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 0;font-weight:700;font-stretch:112%;font-size:clamp(1.1rem,1.6vw,1.35rem);color:var(--navy);line-height:1.25}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";flex:none;width:36px;height:36px;border-radius:50%;background:var(--ice) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath d='M12 18h12M18 12v12' stroke='%23143658' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E") center/100% no-repeat;transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg);background-color:var(--sky)}
+.ans{padding:0 0 28px;color:var(--muted)}
+.ans strong{color:var(--navy)}
+.svc-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.svc-list li{display:flex;align-items:center;gap:12px;font-weight:600;color:var(--navy)}
+.svc-list img{width:28px}
+.diff{list-style:none;padding:0;margin:0;display:grid;gap:20px}
+.diff li{display:grid;grid-template-columns:44px 1fr;gap:14px}
+.diff b{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;font-stretch:125%}
+.diff h4{margin:6px 0 6px;color:var(--navy);font-size:1.05rem}
+.diff p{margin:0}
+
+/* cta */
+.cta{position:relative;color:#fff;padding:140px 0 150px;overflow:hidden;background:var(--navy) url("images/cta-commercial.webp") center/cover no-repeat}
+.cta::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,38,64,.96) 0%,rgba(13,38,64,.88) 42%,rgba(20,54,88,.35) 75%,rgba(20,54,88,.15) 100%)}
+.cta-grid{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:start;position:relative;z-index:2}
+.cta .kicker{font-size:1.15rem;font-weight:600;color:var(--sky);margin-bottom:16px}
+.cta h2{color:#fff;font-size:clamp(2.4rem,5.4vw,4.6rem);max-width:11em}
+.cta p{color:#c9dbeb;max-width:34em;margin:26px 0 32px;font-size:1.08rem}
+.cta p strong{color:#fff}
+.hanger{width:150px;transform:rotate(4deg);transform-origin:top center;margin-top:-140px;filter:drop-shadow(0 18px 24px rgba(0,0,0,.4));border-radius:0 0 10px 10px}
+
+/* footer */
+.foot{background:var(--navy-deep);color:#c9dbeb;padding:80px 0 30px;font-size:.97rem}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr .8fr 1fr;gap:40px}
+.foot-logo{width:250px;margin-bottom:22px}
+.foot .tagline{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-stretch:115%;margin-bottom:18px}
+.foot .tagline img{width:32px}
+.foot h4{color:#fff;font-size:1rem;font-stretch:115%;margin:6px 0 18px}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.foot a{text-decoration:none;color:#c9dbeb}
+.foot a:hover{color:#fff}
+.foot address{font-style:normal;line-height:1.7;margin-bottom:14px}
+.foot .contact a{display:block;font-weight:600;color:#fff}
+.foot-bottom{margin-top:60px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.88rem;color:#93acc4}
+.foot-bottom a{color:#fff;font-weight:600}
+
+/* responsive */
+@media (max-width:1080px){
+  .nav,.head-cta .phone{display:none}
+  .menu-btn{display:block}
+  .head-cta{order:3}
+  .head-cta .btn{display:none}
+  .mobile-nav{display:none;border-top:1px solid var(--line);padding:12px 0 22px}
+  .mobile-nav.open{display:block}
+  .mobile-nav a{display:block;padding:12px 4px;font-weight:600;color:var(--navy);text-decoration:none;border-bottom:1px solid var(--frost)}
+  .mobile-nav .sub a{padding-left:20px;font-weight:500}
+  .mobile-nav .btn{display:flex;justify-content:center;margin-top:16px;border:0}
+  .directory{grid-template-columns:1fr 1fr}
+  .directory a:nth-child(3){border-left:0}
+  .directory a:nth-child(n+3){border-top:1px solid var(--line)}
+  .intro-grid,.why-grid,.faq-grid{grid-template-columns:1fr;gap:56px}
+  .faq-side{position:static}
+  .tabs{grid-template-columns:1fr}
+  .tablist{flex-direction:row;overflow-x:auto;border-top:0;gap:10px;padding-bottom:6px}
+  .tab{grid-template-columns:auto;display:flex;gap:10px;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:8px 18px 8px 8px;font-size:1rem;white-space:nowrap}
+  .tab .ico{width:40px;height:40px}
+  .tab .ico img{width:24px;height:24px}
+  .results-grid{grid-template-columns:1fr}
+  .results-side{order:2}
+  .steps{grid-template-columns:1fr 1fr;row-gap:40px}
+  .rail{display:none}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:680px){
+  body{font-size:16px}
+  .head-row{height:70px}
+  .brand img{height:34px}
+  .hero-photo{object-position:66% 30%}
+  .hero::before{background:linear-gradient(0deg,rgba(13,38,64,.95) 0%,rgba(13,38,64,.7) 55%,rgba(13,38,64,.25) 100%)}
+  .hero-inner{padding:90px 0 40px}
+  .directory{padding:6px 6px 0}
+  .directory a{grid-template-columns:34px 1fr;padding:12px 10px 14px;font-size:.88rem;gap:10px}
+  .directory a::after{display:none}
+  .directory img{width:34px;height:34px}
+  .hero-actions{flex-direction:column}
+  .hero-actions .btn{justify-content:center}
+  .intro,.why,.process,.faq,.services,.results{padding:80px 0}
+  .rise{grid-template-columns:1fr 1fr;gap:12px}
+  .rise figure:nth-child(n) .ph{aspect-ratio:3/3.6}
+  .rise figure:nth-child(even){transform:translateY(-28px)}
+  .panel{grid-template-columns:1fr}
+  .panel .pic{aspect-ratio:4/3}
+  .panel .txt{padding:28px 24px}
+  .points{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .step:nth-child(even){transform:none}
+  .process{padding-bottom:80px}
+  .jobs{display:flex;overflow-x:auto;gap:8px;padding-bottom:6px}
+  .job{width:auto;flex:none;grid-template-columns:48px auto;padding:6px 14px 6px 6px}
+  .job img{width:48px;height:40px}
+  .job span{display:none}
+  .ba{aspect-ratio:4/3.4}
+  .svc-list{grid-template-columns:1fr}
+  .cta{padding:90px 0}
+  .cta::before{background:linear-gradient(0deg,rgba(13,38,64,.96),rgba(13,38,64,.8))}
+  .cta-grid{grid-template-columns:1fr}
+  .hanger{display:none}
+  .foot-grid{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  .frost,.blade{display:none}
+  .hero-copy,.directory{opacity:1;animation:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap head-row">
+    <a class="brand" href="https://ascendcleaningservices.ca/" aria-label="Ascend Cleaning Services Inc. home"><img src="images/logo.svg" alt="Ascend Cleaning Services Inc." width="215" height="43"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="https://ascendcleaningservices.ca/" aria-current="page">Home</a>
+      <div class="drop">
+        <button type="button" aria-haspopup="true">About</button>
+        <div class="drop-panel">
+          <a href="https://ascendcleaningservices.ca/about/">About Ascend</a>
+          <a href="https://ascendcleaningservices.ca/careers/">Careers</a>
+          <a href="https://ascendcleaningservices.ca/faqs/">FAQs</a>
+        </div>
+      </div>
+      <div class="drop">
+        <button type="button" aria-haspopup="true">Services</button>
+        <div class="drop-panel">
+          <a href="https://ascendcleaningservices.ca/window-cleaning/"><img src="images/icon-window.svg" alt="">Window cleaning</a>
+          <a href="https://ascendcleaningservices.ca/gutter-cleaning/"><img src="images/icon-gutter.svg" alt="">Gutter cleaning</a>
+          <a href="https://ascendcleaningservices.ca/pressure-washing/"><img src="images/icon-pressure.svg" alt="">Pressure washing</a>
+          <a href="https://ascendcleaningservices.ca/house-washing/"><img src="images/icon-house.svg" alt="">House and building wash</a>
+          <a class="plans" href="https://ascendcleaningservices.ca/exterior-window-cleaning-maintenance-plans/">Maintenance plans</a>
+        </div>
+      </div>
+      <a href="https://ascendcleaningservices.ca/exterior-window-cleaning-maintenance-plans/">Plans</a>
+      <a href="https://ascendcleaningservices.ca/contact/">Contact</a>
+    </nav>
+    <div class="head-cta">
+      <a class="phone" href="tel:17806677263"><img src="images/a-icon.svg" alt="">780-667-7263</a>
+      <a class="btn btn-sky" href="https://ascendcleaningservices.ca/form/">Request a quote</a>
+    </div>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="wrap mobile-nav" id="mobile-nav">
+    <a href="https://ascendcleaningservices.ca/">Home</a>
+    <a href="https://ascendcleaningservices.ca/about/">About</a>
+    <div class="sub">
+      <a href="https://ascendcleaningservices.ca/window-cleaning/">Window cleaning</a>
+      <a href="https://ascendcleaningservices.ca/gutter-cleaning/">Gutter cleaning</a>
+      <a href="https://ascendcleaningservices.ca/pressure-washing/">Pressure washing</a>
+      <a href="https://ascendcleaningservices.ca/house-washing/">House and building wash</a>
+    </div>
+    <a href="https://ascendcleaningservices.ca/exterior-window-cleaning-maintenance-plans/">Maintenance plans</a>
+    <a href="https://ascendcleaningservices.ca/careers/">Careers</a>
+    <a href="https://ascendcleaningservices.ca/contact/">Contact</a>
+    <a class="btn btn-navy" href="tel:17806677263">Call 780-667-7263</a>
+    <a class="btn btn-sky" href="https://ascendcleaningservices.ca/form/">Request a quote</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <img class="hero-photo" src="images/hero.webp" alt="Ascend window cleaners washing the glass of a commercial building" fetchpriority="high">
+    <div class="frost" aria-hidden="true"></div>
+    <div class="blade" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="badge"><img src="images/number-one.svg" alt="">Ascend Cleaning Services Inc.</p>
+        <h1><span>Edmonton</span><span>exterior</span><span class="thin">cleaners</span></h1>
+        <ul class="ticks">
+          <li>Fully insured</li>
+          <li>Locally owned</li>
+          <li>100% satisfaction guaranteed</li>
+        </ul>
+        <div class="hero-actions">
+          <a class="btn btn-sky" href="https://ascendcleaningservices.ca/form/">Get your free quote</a>
+          <a class="btn btn-ghost" href="tel:17806677263">780-667-7263</a>
+        </div>
+      </div>
+    </div>
+    <nav class="wrap directory" aria-label="Services">
+        <a href="https://ascendcleaningservices.ca/window-cleaning/"><img src="images/icon-window.svg" alt="">Window cleaning</a>
+        <a href="https://ascendcleaningservices.ca/gutter-cleaning/"><img src="images/icon-gutter.svg" alt="">Gutter cleaning</a>
+        <a href="https://ascendcleaningservices.ca/pressure-washing/"><img src="images/icon-pressure.svg" alt="">Pressure washing</a>
+        <a href="https://ascendcleaningservices.ca/house-washing/"><img src="images/icon-house.svg" alt="">House and building wash</a>
+    </nav>
+  </section>
+
+  <section class="intro">
+    <div class="wrap intro-grid">
+      <div>
+        <h2>Our exterior cleaning services</h2>
+        <p class="lede">Ascend Cleaning Services Inc. provides <strong>commercial</strong> and <strong>residential cleaning services</strong> in <strong>Edmonton</strong>, <strong>St. Albert</strong>, <strong>Sherwood Park</strong>, <strong>Leduc</strong>, <strong>Acheson</strong>, <strong>Beaumont</strong> and other surrounding hamlets.</p>
+        <blockquote class="said"><q>They are prompt, courteous and dependable.</q></blockquote>
+        <div class="btn-row">
+          <a class="btn btn-navy" href="https://ascendcleaningservices.ca/#reviews">Read reviews</a>
+          <a class="btn btn-line" href="https://ascendcleaningservices.ca/about/">About Ascend</a>
+        </div>
+      </div>
+      <div class="rise">
+        <figure><a href="https://ascendcleaningservices.ca/window-cleaning/"><div class="ph"><img src="images/about-window.webp" alt="Ascend employee washing windows" loading="lazy"></div><figcaption>Window cleaning</figcaption></a></figure>
+        <figure><a href="https://ascendcleaningservices.ca/pressure-washing/"><div class="ph"><img src="images/about-pressure.webp" alt="Ascend employee pressure washing" loading="lazy"></div><figcaption>Pressure washing</figcaption></a></figure>
+        <figure><a href="https://ascendcleaningservices.ca/gutter-cleaning/"><div class="ph"><img src="images/about-gutter.webp" alt="Ascend employee cleaning gutters" loading="lazy"></div><figcaption>Gutter cleaning</figcaption></a></figure>
+        <figure><a href="https://ascendcleaningservices.ca/house-washing/"><div class="ph"><img src="images/about-house.webp" alt="Ascend employee washing house siding" loading="lazy"></div><figcaption>House and building wash</figcaption></a></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="wrap">
+      <div class="services-head">
+        <h2>What we clean</h2>
+        <p>We offer both commercial and residential services in Edmonton and surrounding areas.</p>
+      </div>
+      <div class="tabs">
+        <div class="tablist" role="tablist" aria-label="Services">
+          <button class="tab" role="tab" id="t1" aria-controls="p1" aria-selected="true"><span class="ico"><img src="images/icon-window.svg" alt=""></span>Window cleaning</button>
+          <button class="tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1"><span class="ico"><img src="images/icon-gutter.svg" alt=""></span>Gutter cleaning</button>
+          <button class="tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1"><span class="ico"><img src="images/icon-pressure.svg" alt=""></span>Pressure cleaning</button>
+          <button class="tab" role="tab" id="t4" aria-controls="p4" aria-selected="false" tabindex="-1"><span class="ico"><img src="images/icon-house.svg" alt=""></span>House and building wash</button>
+        </div>
+        <div>
+          <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
+            <div class="pic"><img src="images/service-window.webp" alt="Window cleaner using a water-fed pole on a two-storey home" loading="lazy"></div>
+            <div class="txt">
+              <h3>Window cleaning</h3>
+              <p>We offer both <strong>commercial</strong> and <strong>residential window cleaning services</strong> in <strong>Edmonton</strong> and surrounding areas.</p>
+              <p>Enhance your property’s curb appeal instantly with our <strong>eco-friendly window cleaning service</strong>. Using the latest in <strong>water-fed pole technology</strong> alongside traditional squeegee methods, <strong>we guarantee your windows will shine</strong>.</p>
+              <a class="btn btn-sky" href="https://ascendcleaningservices.ca/window-cleaning/">Window cleaning</a>
+            </div>
+          </div>
+          <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+            <div class="pic"><img src="images/service-gutter.webp" alt="Gutter vacuum clearing leaves from an eavestrough" loading="lazy"></div>
+            <div class="txt">
+              <h3>Gutter cleaning</h3>
+              <p><strong>Regularly scheduled gutter cleaning</strong> is essential to <strong>prevent water damage</strong> to your roof and foundation.</p>
+              <p>Equipped with <strong>industry-leading gutter cleaning vacuums</strong>, we ensure your gutters are <strong>free of debris</strong>. Your gutters and downspouts are then sprayed and flushed by garden hose for clog-free flow, and we send you <strong>after photos of your clean gutters</strong>.</p>
+              <a class="btn btn-sky" href="https://ascendcleaningservices.ca/gutter-cleaning/">Gutter cleaning</a>
+            </div>
+          </div>
+          <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+            <div class="pic"><img src="images/service-pressure.webp" alt="Pressure cleaning a concrete driveway" loading="lazy"></div>
+            <div class="txt">
+              <h3>Pressure cleaning</h3>
+              <p>Enjoy clean surroundings all spring, summer and fall with our <strong>pressure cleaning services</strong>.</p>
+              <p>Our <strong>chemical-free process</strong> will <strong>brighten up your walkways, driveways and decks</strong>, maintaining that inviting look throughout the seasons.</p>
+              <a class="btn btn-sky" href="https://ascendcleaningservices.ca/pressure-washing/">Pressure cleaning</a>
+            </div>
+          </div>
+          <div class="panel" role="tabpanel" id="p4" aria-labelledby="t4" hidden>
+            <div class="pic"><img src="images/service-house.webp" alt="Technician washing vinyl siding with a soft brush" loading="lazy"></div>
+            <div class="txt">
+              <h3>House and building wash</h3>
+              <p>Transform the look of your property with our <strong>professional building wash</strong>. Our <strong>expert cleaning service</strong> combines <strong>pressure cleaners at moderate settings</strong> and <strong>specialized brushes</strong> to thoroughly clean your building or home’s siding.</p>
+              <p>Our <strong>chemical-free process</strong> enhances your property’s appearance without harming your landscaping.</p>
+              <a class="btn btn-sky" href="https://ascendcleaningservices.ca/house-washing/">House and building wash</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="wrap why-grid">
+      <div>
+        <div class="why-title"><h2>Why trust Ascend</h2><img src="images/a-icon.svg" alt=""></div>
+        <div class="why-art"><img src="images/why-house.webp" alt="A clean Edmonton home serviced by Ascend" loading="lazy"></div>
+        <div class="guarantee">
+          <p>We guarantee 100% satisfaction on all our services.</p>
+          <a class="btn btn-navy" href="https://ascendcleaningservices.ca/form/">Get a free quote</a>
+        </div>
+      </div>
+      <ul class="points">
+        <li><img src="images/check.svg" alt="">Free on-site quotes</li>
+        <li><img src="images/check.svg" alt="">100% satisfaction guarantee</li>
+        <li><img src="images/check.svg" alt="">Fully licensed and insured</li>
+        <li><img src="images/check.svg" alt="">Highly trained technicians</li>
+        <li><img src="images/check.svg" alt="">Attention to detail</li>
+        <li><img src="images/check.svg" alt="">Safety is our priority</li>
+        <li><img src="images/check.svg" alt="">Industry-leading equipment</li>
+        <li><img src="images/check.svg" alt="">Locally-owned family business</li>
+        <li><img src="images/check.svg" alt="">Living wage employer</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="results" id="results">
+    <div class="wrap results-grid">
+      <div class="results-side">
+        <h2>Results that speak for themselves</h2>
+        <p class="note">Real Ascend jobs. Drag the handle to compare before and after.</p>
+        <ul class="jobs" aria-label="Choose a job">
+          <li><button class="job" type="button" aria-pressed="true" data-b="images/ba-garage-before.webp" data-a="images/ba-garage-after.webp" data-t="Pressure cleaning"><img src="images/ba-garage-after.webp" alt=""><div><b>Pressure cleaning</b><span>Garage floor</span></div></button></li>
+          <li><button class="job" type="button" aria-pressed="false" data-b="images/ba-deck-before.webp" data-a="images/ba-deck-after.webp" data-t="Pressure cleaning"><img src="images/ba-deck-after.webp" alt=""><div><b>Pressure cleaning</b><span>Deck</span></div></button></li>
+          <li><button class="job" type="button" aria-pressed="false" data-b="images/ba-siding-before.webp" data-a="images/ba-siding-after.webp" data-t="House and building wash"><img src="images/ba-siding-after.webp" alt=""><div><b>House and building wash</b><span>Siding</span></div></button></li>
+          <li><button class="job" type="button" aria-pressed="false" data-b="images/ba-windows-before.webp" data-a="images/ba-windows-after.webp" data-t="Window cleaning"><img src="images/ba-windows-after.webp" alt=""><div><b>Window cleaning</b><span>Windows and soffits</span></div></button></li>
+          <li><button class="job" type="button" aria-pressed="false" data-b="images/ba-gutters-before.webp" data-a="images/ba-gutters-after.webp" data-t="Gutter cleaning"><img src="images/ba-gutters-after.webp" alt=""><div><b>Gutter cleaning</b><span>Eavestroughs</span></div></button></li>
+        </ul>
+        <a class="btn btn-sky" href="https://ascendcleaningservices.ca/form/">Request a free quote</a>
+      </div>
+      <div>
+        <div class="ba">
+          <img class="after" src="images/ba-garage-after.webp" alt="After cleaning">
+          <img class="before" src="images/ba-garage-before.webp" alt="Before cleaning">
+          <span class="chip l">Before</span><span class="chip r">After</span>
+          <input type="range" min="0" max="100" value="50" aria-label="Compare before and after">
+          <span class="bar"></span><span class="knob"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="wrap">
+      <div class="process-head">
+        <h2>Our simple 4 step process</h2>
+        <a class="btn btn-navy" href="https://ascendcleaningservices.ca/form/">Request a quote</a>
+      </div>
+      <div class="rail" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+      <ol class="steps">
+        <li class="step">
+          <div class="pic"><img src="images/step-quote.webp" alt="Homeowner requesting a quote on a laptop" loading="lazy"><span class="n">1</span></div>
+          <h3>Get a free quote</h3>
+          <p>Requesting a quote only takes a minute. A member of our staff will reach out within 1–2 business days and schedule a time to visit your property, so we can give you an accurate price.</p>
+          <a href="https://ascendcleaningservices.ca/form/">Let’s get started</a>
+        </li>
+        <li class="step">
+          <div class="pic"><img src="images/step-schedule.webp" alt="Booking confirmation on a phone" loading="lazy"><span class="n">2</span></div>
+          <h3>Get scheduled</h3>
+          <p>Once you have approved your quote, we will reach out to find a date and time that works for your service. It is that easy.</p>
+          <a href="https://ascendcleaningservices.ca/form/">Book now</a>
+        </li>
+        <li class="step">
+          <div class="pic"><img src="images/step-relax.webp" alt="Couple relaxing on their deck while windows are cleaned" loading="lazy"><span class="n">3</span></div>
+          <h3>Time to relax</h3>
+          <p>Our friendly, skilled technicians take care of your property. No climbing ladders, unclogging gutters or scrubbing windows.</p>
+          <a href="https://ascendcleaningservices.ca/form/">I’m ready</a>
+        </li>
+        <li class="step">
+          <div class="pic"><img src="images/step-invoice.webp" alt="Couple reviewing an emailed invoice" loading="lazy"><span class="n">4</span></div>
+          <h3>Receive emailed invoice</h3>
+          <p>Once your project is complete and you are 100% satisfied, your invoice is emailed to you. Pay by Interac e-Transfer, online by credit card or by cheque.</p>
+          <a href="https://ascendcleaningservices.ca/form/">Sign me up</a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="wrap faq-grid">
+      <div class="faq-side">
+        <h2>Frequently asked questions</h2>
+        <p>We do not provide estimates or ballpark costs over the phone or based on pictures. We visit your property in person to give an accurate price.</p>
+        <a class="btn btn-line" href="https://ascendcleaningservices.ca/faqs">See all FAQs</a>
+      </div>
+      <div>
+        <details open>
+          <summary>What services do you offer?</summary>
+          <div class="ans">
+            <ul class="svc-list">
+              <li><img src="images/a-icon.svg" alt="">Window cleaning</li>
+              <li><img src="images/a-icon.svg" alt="">Screen cleaning</li>
+              <li><img src="images/a-icon.svg" alt="">Gutter cleaning</li>
+              <li><img src="images/a-icon.svg" alt="">Gutter brightening</li>
+              <li><img src="images/a-icon.svg" alt="">Gutter guard installation</li>
+              <li><img src="images/a-icon.svg" alt="">House and building wash</li>
+              <li><img src="images/a-icon.svg" alt="">Pressure cleaning</li>
+              <li><img src="images/a-icon.svg" alt="">Solar panel cleaning</li>
+            </ul>
+          </div>
+        </details>
+        <details>
+          <summary>What makes Ascend different from other exterior cleaning companies in Edmonton?</summary>
+          <div class="ans">
+            <ol class="diff">
+              <li><b>1</b><div><h4>Attention to detail</h4><p>We pay attention to the little details that other companies do not. From our thorough cleaning processes to the smallest of tasks, rest assured your project will be well taken care of.</p></div></li>
+              <li><b>2</b><div><h4>Our team</h4><p>Our team is trained not only to perform cleaning services but also to excel at customer service. We believe in paying above industry wages. We will not be your cheapest price; we aim to be the best value. Our staff treat your property as if it were their own.</p></div></li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>Do you serve areas other than Edmonton?</summary>
+          <div class="ans">
+            <p>We are based in <strong>Edmonton</strong>, but also service <strong>Sherwood Park</strong>, <strong>St. Albert</strong>, <strong>Beaumont</strong>, <strong>Leduc</strong>, <strong>Acheson</strong> and <strong>Spruce Grove</strong>. Upon request we also service nearby lakes such as <strong>Wabamun</strong> and <strong>Jackfish</strong>.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap cta-grid">
+      <div>
+        <p class="kicker">Quality Edmonton cleaning services</p>
+        <h2>Ready to get started? Grab your free estimate.</h2>
+        <p>We provide <strong>commercial</strong> and <strong>residential cleaning services</strong> in <strong>Edmonton</strong>, <strong>St. Albert</strong>, <strong>Sherwood Park</strong>, <strong>Leduc</strong>, <strong>Acheson</strong>, <strong>Beaumont</strong> and other surrounding locations.</p>
+        <div class="btn-row">
+          <a class="btn btn-sky" href="https://ascendcleaningservices.ca/form/">Request a free quote</a>
+          <a class="btn btn-ghost" href="tel:17806677263">780-667-7263</a>
+        </div>
+      </div>
+      <img class="hanger" src="images/door-hanger.webp" alt="Ascend Cleaning Services thank-you door hanger" loading="lazy">
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="foot-logo" src="images/logo-white.svg" alt="Ascend Cleaning Services Inc." loading="lazy">
+        <p class="tagline"><img src="images/number-one.svg" alt="">Edmonton exterior cleaners</p>
+      </div>
+      <div class="contact">
+        <h4>Visit or call</h4>
+        <address>11007 Jasper Ave. Suite 704<br>Edmonton, Alberta<br>T5K 0K6</address>
+        <a href="mailto:info@ascendcleaningservices.ca">info@ascendcleaningservices.ca</a>
+        <a href="tel:17806677263">780-667-7263</a>
+      </div>
+      <div>
+        <h4>Quicklinks</h4>
+        <ul>
+          <li><a href="https://ascendcleaningservices.ca/about/">About</a></li>
+          <li><a href="https://ascendcleaningservices.ca/faqs/">FAQs</a></li>
+          <li><a href="https://ascendcleaningservices.ca/careers/">Careers</a></li>
+          <li><a href="https://ascendcleaningservices.ca/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="https://ascendcleaningservices.ca/window-cleaning/">Window cleaning</a></li>
+          <li><a href="https://ascendcleaningservices.ca/gutter-cleaning/">Gutter cleaning</a></li>
+          <li><a href="https://ascendcleaningservices.ca/pressure-washing/">Pressure washing</a></li>
+          <li><a href="https://ascendcleaningservices.ca/house-washing/">House and building wash</a></li>
+          <li><a href="https://ascendcleaningservices.ca/exterior-window-cleaning-maintenance-plans/">Maintenance plans</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© Ascend Cleaning Services Inc. All rights reserved.</span>
+      <span>Design by <a href="https://cleaningdigital.ca/" target="_blank" rel="noopener">Cleaning Digital</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.querySelector('.menu-btn'),nav=document.getElementById('mobile-nav');
+  btn.addEventListener('click',function(){var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o);});
+  var tabs=[].slice.call(document.querySelectorAll('[role=tab]'));
+  function pick(t,focus){
+    tabs.forEach(function(x){var on=x===t;x.setAttribute('aria-selected',on);x.tabIndex=on?0:-1;document.getElementById(x.getAttribute('aria-controls')).hidden=!on;});
+    if(focus)t.focus();
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){pick(t)});
+    t.addEventListener('keydown',function(e){
+      var k=e.key,n=null;
+      if(k==='ArrowDown'||k==='ArrowRight')n=tabs[(i+1)%tabs.length];
+      if(k==='ArrowUp'||k==='ArrowLeft')n=tabs[(i-1+tabs.length)%tabs.length];
+      if(n){e.preventDefault();pick(n,true);}
+    });
+  });
+  var ba=document.querySelector('.ba'),rng=ba.querySelector('input'),bi=ba.querySelector('.before'),ai=ba.querySelector('.after');
+  rng.addEventListener('input',function(){ba.style.setProperty('--pos',rng.value+'%')});
+  [].forEach.call(document.querySelectorAll('.job'),function(j,_,all){
+    j.addEventListener('click',function(){
+      [].forEach.call(document.querySelectorAll('.job'),function(x){x.setAttribute('aria-pressed',x===j)});
+      bi.src=j.dataset.b;ai.src=j.dataset.a;bi.alt=j.dataset.t+' before';ai.alt=j.dataset.t+' after';
+      rng.value=50;ba.style.setProperty('--pos','50%');
+    });
+  });
+})();
+</script>
+</body>
+</html>
